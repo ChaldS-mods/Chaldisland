@@ -1,0 +1,28 @@
+﻿# Сборка Rust / Tauri
+src-tauri/target/
+src-tauri/gen/
+target/
+
+# Node
+node_modules/
+package-lock.json
+
+# Ключи и собранные расширения
+*.pem
+*.crx
+*.key
+.env
+.env.*
+
+# Готовые сборки
+*.exe
+*.msi
+*.zip
+
+# Системное и редакторы
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,16 @@
+{
+  "productName": "ChaldIsland",
+  "version": "0.1.0",
+  "identifier": "dev.local.island",
+  "build": { "frontendDist": "../src" },
+  "app": {
+    "withGlobalTauri": true,
+    "security": { "csp": null },
+    "windows": [{
+      "label": "main", "title": "ChaldIsland", "width": 540, "height": 350,
+      "decorations": false, "transparent": true, "alwaysOnTop": true,
+      "skipTaskbar": true, "resizable": false, "shadow": false, "focus": false
+    }]
+  },
+  "bundle": { "active": true, "targets": ["nsis"], "icon": ["icons/icon.ico"] }
+}

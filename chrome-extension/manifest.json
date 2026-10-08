@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "ChaldIsland: загрузки Chrome",
+  "version": "1.0",
+  "description": "Передаёт в ChaldIsland имя, размер и прогресс загрузок Chrome",
+  "permissions": ["downloads", "alarms"],
+  "host_permissions": ["http://127.0.0.1:47821/*"],
+  "background": { "service_worker": "background.js" }
+}
